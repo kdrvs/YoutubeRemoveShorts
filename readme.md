@@ -1,1 +1,1 @@
-### Tampermonkey script to remove shorts from YouTube.
+#### Tampermonkey script to remove shorts from YouTube.
