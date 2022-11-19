@@ -17,10 +17,16 @@
     window.addEventListener('scroll', function(){
         remove_shorts();
     });
+
     window.addEventListener('load', function(){
         remove_shorts();
     });
+
     window.addEventListener('click', function(){
+        remove_shorts();
+    });
+
+    window.addEventListener('afterscriptexecute', function(){
         remove_shorts();
     });
 
