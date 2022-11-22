@@ -30,6 +30,11 @@
         remove_shorts();
     });
 
+    window.addEventListener('down', function(){
+        remove_shorts();
+        setTimeout(remove_shorts, 1000);
+    });
+
     function remove_shorts(){
         let shorts = document.querySelectorAll('[href*="shorts"]');
         shorts.forEach(el => {
