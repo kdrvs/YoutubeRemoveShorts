@@ -40,6 +40,11 @@
         shorts.forEach(el => {
             el.parentNode.parentNode.parentNode.remove();
         });
+        
+        let radio = document.querySelectorAll('[href*="start-radio"]');
+        radio.forEach(el => {
+            el.parentNode.parentNode.parentNode.remove();
+        });
     };
 
 })();
